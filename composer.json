@@ -1,0 +1,33 @@
+{
+    "name": "idn-play/vock88",
+    "license": "",
+    "description": "Laravel Package for Client API voucher88",
+    "authors": [
+        {
+            "name": "IDN PLAY",
+            "email": "singkek@idnplay.com"
+        }
+    ],
+    "type": "composer-plugin,library,sdk",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "IdnPlay\\Vock88\\": "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.16",
+        "illuminate/support": "^5.5 || ^6.0",
+        "illuminate/database": "^5.5 || ^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IdnPlay\\Vock88\\Providers\\ServiceProvider"
+            ],
+            "aliases": {
+                "Vock88": "IdnPlay\\Vock88\\Facade\\Vock88Facades"
+            }
+        }
+    }
+}
