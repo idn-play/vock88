@@ -29,5 +29,10 @@
                 "Vock88": "IdnPlay\\Vock88\\Facade\\Vock88Facades"
             }
         }
-    }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "prefer-stable": true
 }
