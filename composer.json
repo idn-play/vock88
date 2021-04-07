@@ -8,7 +8,7 @@
             "email": "singkek@idnplay.com"
         }
     ],
-    "type": "composer-plugin,library,sdk",
+    "type": "helper",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
